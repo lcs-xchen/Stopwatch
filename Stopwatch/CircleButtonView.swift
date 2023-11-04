@@ -20,7 +20,6 @@ struct CircleButtonView: View {
             
             //First layer
             Circle()
-                .foregroundColor(.gray)
                 .foregroundColor(buttonColor)
                 .frame(width: 100)
             
@@ -31,7 +30,6 @@ struct CircleButtonView: View {
             
             //Third layer
             Circle()
-                .foregroundColor(.gray)
                 .foregroundColor(buttonColor)
                 .frame(width: 89)
             
@@ -45,5 +43,9 @@ struct CircleButtonView: View {
 }
 
 #Preview {
-    CircleButtonView(buttonColor: .gray, label: "Reset", labelColor: .white)
+    CircleButtonView(
+        buttonColor: .gray,
+        label: "Reset",
+        labelColor: .white
+    )
 }
