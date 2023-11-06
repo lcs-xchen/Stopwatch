@@ -49,38 +49,41 @@ struct ContentView: View {
                 }
                 
                 // List of times
-                HStack{
+                VStack{
                     
-                    List_view (
-                        label5: "Lap 5",
-                        label4: "Lap 4",
-                        label3: "Lap 3",
-                        label2: "Lap 2",
-                        label1: "Lap 1",
-                        labelColor5: .white,
-                        labelColor4: .red,
-                        labelColor3: .green,
-                        labelColor2: .white,
-                        labelColor1: .white
-                    )
-                    
-                    Spacer()
-                    Spacer()
-                    
-                    List_view (
-                        label5: "00:00.98",
-                        label4: "00:04.08",
-                        label3: "00:00.96",
-                        label2: "00:02.76",
-                        label1: "00:01.16",
-                        labelColor5: .white,
-                        labelColor4: .red,
-                        labelColor3: .green,
-                        labelColor2: .white,
-                        labelColor1: .white
-                    )
-                    
+                    Group{
                         
+                        List {
+                            ListView (
+                                label: "Lap 5",
+                                time: "00:00.98",
+                                labelColor: .white
+                            )
+                            
+                            ListView (
+                                label: "Lap 4",
+                                time: "00:04.08",
+                                labelColor: .red
+                            )
+                            
+                            ListView (
+                                label: "Lap 3",
+                                time: "00:00.96",
+                                labelColor: .green                        )
+                            
+                            ListView (
+                                label: "Lap 2",
+                                time: "00:02.76",
+                                labelColor: .white                        )
+                            
+                            ListView (
+                                label: "Lap 1",
+                                time: "00:01.16",
+                                labelColor: .white                        )
+                        }
+                        
+                        
+                    }
                         
                         .listRowSeparatorTint(.gray)
                         // Remove inset from list items
