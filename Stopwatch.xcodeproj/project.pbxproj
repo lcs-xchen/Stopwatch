@@ -11,6 +11,7 @@
 		DF715DA82AF3D9B100F937A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF715DA72AF3D9B100F937A2 /* ContentView.swift */; };
 		DF715DAA2AF3D9BB00F937A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF715DA92AF3D9BB00F937A2 /* Assets.xcassets */; };
 		DF715DAD2AF3D9BB00F937A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF715DAC2AF3D9BB00F937A2 /* Preview Assets.xcassets */; };
+		DFC6C62C2AF9758D0053B03F /* List view.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC6C62B2AF9758D0053B03F /* List view.swift */; };
 		DFDD97A42AF3E03E00C59441 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD97A32AF3E03E00C59441 /* CircleButtonView.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +21,7 @@
 		DF715DA72AF3D9B100F937A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF715DA92AF3D9BB00F937A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF715DAC2AF3D9BB00F937A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFC6C62B2AF9758D0053B03F /* List view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List view.swift"; sourceTree = "<group>"; };
 		DFDD97A32AF3E03E00C59441 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				DF715DA52AF3D9B100F937A2 /* StopwatchApp.swift */,
+				DFC6C62B2AF9758D0053B03F /* List view.swift */,
 				DF715DA72AF3D9B100F937A2 /* ContentView.swift */,
 				DF715DA92AF3D9BB00F937A2 /* Assets.xcassets */,
 				DF715DAB2AF3D9BB00F937A2 /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFDD97A42AF3E03E00C59441 /* CircleButtonView.swift in Sources */,
+				DFC6C62C2AF9758D0053B03F /* List view.swift in Sources */,
 				DF715DA82AF3D9B100F937A2 /* ContentView.swift in Sources */,
 				DF715DA62AF3D9B100F937A2 /* StopwatchApp.swift in Sources */,
 			);
